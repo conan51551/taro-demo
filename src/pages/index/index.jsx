@@ -28,8 +28,6 @@ export default class PagePicker extends Component {
 
         <InputNumber
           num={this.state.num}
-          min={1}
-          max={5}
           change={this.changeNum}
         />
       </View>
