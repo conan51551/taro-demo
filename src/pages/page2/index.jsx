@@ -4,7 +4,7 @@ import Taro from "@tarojs/taro";
 import InputNumber from "./inputNumber";
 
 export default function page2() {
-  const [num, setNum] = useState(1);
+  const [Num, setNum] = useState(1);
 
   const change = (_num) => {
     setNum(() => _num);
@@ -12,7 +12,7 @@ export default function page2() {
 
   return (
     <View>
-      <InputNumber num={num} change={change} />
+      <InputNumber num={Num} change={change} />
     </View>
   );
 }

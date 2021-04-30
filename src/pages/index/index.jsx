@@ -25,13 +25,6 @@ export default class PagePicker extends Component {
         >
           跳转
         </Button>
-        <Button
-          onClick={() => {
-            Taro.navigateTo({ url: "/pages/page3/index" });
-          }}
-        >
-          跳转
-        </Button>
 
         <InputNumber
           num={this.state.num}

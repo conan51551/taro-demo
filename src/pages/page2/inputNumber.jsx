@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { View, Input } from "@tarojs/components";
 
 function InputNumber(props) {
@@ -18,10 +17,11 @@ function InputNumber(props) {
   return (
     <View>
       <Input
-        type="number"
+        type='number'
         onBlur={handleBlur}
         value={props.num}
         key={props.num}
+        placeholder='只能输入小于5的数字'
       />
     </View>
   );
